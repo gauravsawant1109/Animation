@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button animation</title>
+    <style>
+        button{
+           width: 200px;
+           height: 100px;
+           font-size: 40px;
+           background-color: grey;
+           border-top: 8px solid rgb(219, 117, 0);
+           position: relative;
+           top: 280px;
+           left: 45%;
+          
+           
+         
+        }
+
+        button:hover{
+            animation: button 1s  ;
+        }
+
+        @keyframes button{
+          0%{transform: rotatez(0);}
+          9%{transform: rotatez(-10deg);}
+          18%{transform: rotatez(10deg);}
+          27%{transform: rotatez(-1deg);}
+          36%{transform: rotatez(10deg);}
+          45%{transform: rotatez(-10deg);}
+          54%{transform: rotatez(10deg);}
+          63%{transform: rotatez(-10deg);}
+          72%{transform: rotatez(10deg);}
+          81%{transform: rotatez(-10deg);}
+          90%{transform: rotatez(10deg);}
+          100%{transform: rotatez(0);}
+        }
+    </style>
+</head>
+<body style="background-color: rgb(27, 59, 27);">
+    <button>Save</button>
+</body>
+</html>
